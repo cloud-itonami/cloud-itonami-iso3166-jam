@@ -6,4 +6,7 @@
  :itonami.blueprint/governor :market-entry-compliance-governor
  :itonami.blueprint/robotics false
  :itonami.blueprint/required-technologies [:identity :forms :dmn :bpmn :audit-ledger]
- :itonami.blueprint/status :public-oss}
+ :itonami.blueprint/status :public-oss
+ :itonami.blueprint/maturity :implemented
+ :itonami.blueprint/implemented-slice
+ "langgraph-clj StateGraph OperationActor (intake -> advise -> govern -> decide -> commit|request-approval|hold), sealed MarketEntry-LLM mock advisor, 7-check Market-Entry Compliance Governor (spec-basis, evidence-incomplete, ppc-registration-missing [flagship, J$1,500,000.00 Public Procurement Act 2015 threshold], engagement-fee-mismatch, companies-office-registration-unverified, already-drafted, already-submitted), Store protocol (MemStore + DatomicStore on langchain-store.core), 0->3 phase rollout gate (filing/draft and filing/submit never auto-commit at any phase), append-only audit ledger, demo engagement set covering clean/fee-mismatch/missing-PPC-registration/below-threshold cases. 32 tests / 107 assertions passing, clj-kondo 0 errors."}
