@@ -13,9 +13,9 @@ Jamaica registration). **Seven** governor checks, same shape as the AGO
 reference — see `src/marketentry/governor.cljk`.
 
 ```
-clojure -M:dev:test   # run the full test suite
-clojure -M:lint       # clj-kondo, errors fail
-clojure -M:dev:run    # demo driver (marketentry.sim)
+kbb -M:dev:test   # run the full test suite
+kbb -M:lint       # clj-kondo, errors fail
+kbb -M:dev:run    # demo driver (marketentry.sim)
 ```
 
 ## Correction: this repo previously claimed "GOJEP / e-GP" and "TRN"
