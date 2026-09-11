@@ -10,7 +10,7 @@ registration, required above the Public Procurement Act, 2015's
 J$1,500,000.00 GOJ-tender-value threshold). Corporate-number-equivalent
 check: `companies-office-registration-unverified` (Companies Office of
 Jamaica registration). **Seven** governor checks, same shape as the AGO
-reference — see `src/marketentry/governor.cljc`.
+reference — see `src/marketentry/governor.cljk`.
 
 ```
 clojure -M:dev:test   # run the full test suite
@@ -24,7 +24,7 @@ This repo's original blueprint stub said Jamaica's procurement channel was
 **"GOJEP / e-GP public procurement portal"** and that Companies Office of
 Jamaica registration paired with **"TRN"**. Neither claim was independently
 verified against `.gov.jm` government domains during this actor's build, so
-neither is repeated in `src/marketentry/facts.cljc`, `organization.edn`, or
+neither is repeated in `src/marketentry/facts.cljk`, `organization.edn`, or
 `docs/`. What IS verified, and is what this actor's catalog now cites:
 
 - **Public Procurement Commission (PPC)** — the public-procurement
@@ -61,7 +61,7 @@ This repo carries a **country-level regional-culture catalog**
 Wave 1, in `com-junkawasaki/root`) — national dishes, protected products,
 beverages, crafts, festivals and heritage sites for Jamaica:
 
-- `src/culture/facts.cljc` — the catalog, source of truth (keyed by
+- `src/culture/facts.cljk` — the catalog, source of truth (keyed by
   uppercase ISO3, mirroring the `statute.facts` convention of the
   iso3166 siblings).
 - `schema/culture.edn` — DataScript schema.

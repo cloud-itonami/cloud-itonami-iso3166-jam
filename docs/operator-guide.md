@@ -3,7 +3,7 @@
 Human-gated filing only. Every `:filing/draft`/`:filing/submit`
 proposal always pauses for a human market-entry operator's approval —
 there is no rollout phase in which either auto-commits (see
-`src/marketentry/phase.cljc`).
+`src/marketentry/phase.cljk`).
 
 ## Portal / channel
 
@@ -53,7 +53,7 @@ operator must fix the underlying engagement record (confirm PPC
 registration, correct the fee, verify Companies Office registration)
 before resubmitting, not approve past the governor.
 
-## Required evidence checklist (per `src/marketentry/facts.cljc`)
+## Required evidence checklist (per `src/marketentry/facts.cljk`)
 
 - Companies Office of Jamaica registration record (or equivalent
   foreign companies-registry record, if foreign)
@@ -70,5 +70,5 @@ investigate procurement matters, but the dossier does not establish it
 as a pre-tender registration gate — this guide does not treat OCG
 clearance as a checklist item, and neither does the governor. If you
 find a verifiable source that changes this, extend
-`src/marketentry/facts.cljc`'s `catalog` — do not hand-edit a claim
+`src/marketentry/facts.cljk`'s `catalog` — do not hand-edit a claim
 into this guide or any other doc without an official source.

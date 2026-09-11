@@ -36,7 +36,7 @@ start, rather than a hand-rolled `enc`/`dec*` codec (ADR-2607141600: ~190
 cloud-itonami actors hand-roll that exact two-liner; new stores must
 not add to that count).
 
-Every fact in `src/marketentry/facts.cljc` is grounded in the verified
+Every fact in `src/marketentry/facts.cljk` is grounded in the verified
 Jamaica research dossier only — the Public Procurement Commission
 (PPC, `ppc.gov.jm`), the Office of Public Procurement Policy
 (`procureja.gov.jm`), the Public Procurement Act, 2015, the
